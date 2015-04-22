@@ -3,7 +3,7 @@ Simple events for simple objects. Three methods: `.on`, `.off`, `.trigger`. Lots
 
 ## Install _(coming soon)_
 ```bash
-npm install simple-events
+npm install --save simple-events
 ```
 
 ## Usage
