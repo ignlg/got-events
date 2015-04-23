@@ -1,9 +1,9 @@
-# simple-events
-Simple events for simple objects. Three methods: `.on`, `.off`, `.trigger`. Lots of fun.
+# got-events
+Simple events for simple objects. Three methods to rule'em all: `.on`, `.off`, `.trigger`. Lots of fun.
 
 ## Install _(coming soon)_
 ```bash
-npm install --save simple-events
+npm install --save got-events
 ```
 
 ## Usage
@@ -12,25 +12,25 @@ Three options:
 1. **Function:**
 
   ```js
-  var evHandler = require('simple-events')();
+  var evHandler = require('got-events')();
   ```
 
 2. **Extend object:**
 
   ```js
-  require('simple-events').extend(simpleObject);
+  require('got-events').extend(simpleObject);
   ```
   
   Optionally preserving old attributes:
 
   ```js
-  require('simple-events').extend(simpleObject, true);
+  require('got-events').extend(simpleObject, true);
   ```
 
 3. **Singleton:**
   
   ```js
-  var evHandler = require('simple-events').singleton;
+  var evHandler = require('got-events').singleton;
   ```
 
 ## Object methods

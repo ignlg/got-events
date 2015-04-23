@@ -1,1 +1,1 @@
-module.exports = exports = require('./lib/simpleEvents');
+module.exports = exports = require('./lib/gotEvents');

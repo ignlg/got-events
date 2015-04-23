@@ -1,24 +1,23 @@
 {
-  "name": "simple-events",
+  "name": "got-events",
   "version": "1.3.0",
-  "description": "Simple events for simple objects. Three methods: on, off, trigger.",
+  "description": "Simple events for simple objects. Three methods to rule'em all: `on`, `off`, `trigger`.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ignlg/simple-events.git"
+    "url": "https://github.com/ignlg/got-events.git"
   },
   "keywords": [
-    "simple",
     "events",
     "event"
   ],
   "author": "Ignacio Lago <ignacio@ignaciolago.com>",
   "license": "Apache 2.0",
   "bugs": {
-    "url": "https://github.com/ignlg/simple-events/issues"
+    "url": "https://github.com/ignlg/got-events/issues"
   },
-  "homepage": "https://github.com/ignlg/simple-events"
+  "homepage": "https://github.com/ignlg/got-events"
 }
