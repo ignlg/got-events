@@ -37,27 +37,25 @@ Three options:
 
 * `.on(eventName, callback)`
   
-  `eventName` can be an Array.
+  `eventName` can be an array.
 
 * `.on(eventName, callbackId, callback)`
   
-  `eventName` can be an Array.
+  `eventName` can be an array.
 
 * `.off(eventName)`
   
-  where `eventName` can be an Array.
+  where `eventName` can be an array.
   
   Clears the event callbacklist.
 
 * `.off(eventName, callback)`
   
-  where `eventName` can be an Array.
-  where `callback` can be an Array.
+  where `eventName`, `callback` can be an arrays.
 
 * `.off(eventName, callbackId)`
   
-  where `eventName` can be an Array.
-  where `callbackId` can be an Array.
+  where `eventName`, `callbackId` can be an arrays.
 
 * `.trigger(eventName, data)`
   
