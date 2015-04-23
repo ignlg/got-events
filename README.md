@@ -37,33 +37,53 @@ Three options:
 
 * `.on(eventName, callback)`
   
-  `eventName` can be an array.
+  Adds a callback to an event.
+  
+  1. `eventName`: String or Array of strings.
+  2. `callback`: Function.
 
 * `.on(eventName, callbackId, callback)`
   
-  `eventName` can be an array.
+  Adds a callback to an event, identified.
+  
+  1. `eventName`: String or Array of strings.
+  2. `callbackId`: String.
+  3. `callback`: Function.
 
 * `.off(eventName)`
   
-  where `eventName` can be an array.
+  Clears the event's callback list.
   
-  Clears the event callbacklist.
+  1. `eventName`: String or Array of strings.
 
 * `.off(eventName, callback)`
   
-  where `eventName`, `callback` can be an arrays.
+  Removes a callback from an event.
+  
+  1. `eventName`: String or Array of strings.
+  2. `callback`: Function.
 
 * `.off(eventName, callbackId)`
   
-  where `eventName`, `callbackId` can be an arrays.
+  Removes an identified callback from an event.
+  
+  1. `eventName`: String or Array of strings.
+  2. `callbackId`: String or Array of strings.
 
 * `.trigger(eventName, data)`
   
-  where `eventName` can be an Array.
+  Triggers an event with `err = null`.
+  
+  1. `eventName`: String or Array of strings.
+  2. `data`: Anything.
 
 * `.trigger(eventName, err, data...)`
   
-  where `eventName` can be an Array.
+  Triggers an event.
+  
+  1. `eventName`: String or Array of strings.
+  2. `err`: Error or Boolean.
+  3. `data...`: Anything. Every argument from here will be passed to callback.
 
 ## Other features
 
