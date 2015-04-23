@@ -59,11 +59,11 @@ Three options:
   where `eventName` can be an Array.
   where `callbackId` can be an Array.
 
-* `.trigger(eventName, data)
+* `.trigger(eventName, data)`
   
   where `eventName` can be an Array.
 
-* `.trigger(eventName, err, data...)
+* `.trigger(eventName, err, data...)`
   
   where `eventName` can be an Array.
 
