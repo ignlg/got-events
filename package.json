@@ -1,6 +1,6 @@
 {
   "name": "simple-events",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Simple events for simple objects. Three methods: on, off, trigger.",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "event"
   ],
   "author": "Ignacio Lago <ignacio@ignaciolago.com>",
-  "license": "MIT",
+  "license": "Apache 2.0",
   "bugs": {
     "url": "https://github.com/ignlg/simple-events/issues"
   },
