@@ -6,6 +6,38 @@ Simple events for simple objects. Three methods to rule'em all: `.on`, `.off`, `
 npm install --save got-events
 ```
 
+## Examples
+```js
+var gotEvents = require('gotEvents');
+var needEvents = {};
+
+// The magic trick
+gotEvents.extend(needEvents);
+
+/* Simple events */
+needEvents.on('hello', function() {
+  return console.log('world!');
+});
+needEvents.trigger('hello');
+// Console says 'world!'
+needEvents.off('hello');
+needEvents.trigger('hello');
+// Nothing happens
+
+/* More events */
+needEvents.on('hello', 'world', function() {
+  return console.log('world!');
+});
+needEvents.on('hello', 'planet', function() {
+  return console.log('planet!');
+});
+needEvents.trigger('hello');
+// Console says 'world!' and then 'planet!'
+needEvents.off('hello', 'world');
+needEvents.trigger('hello');
+// Console says 'planet!'
+```
+
 ## Usage
 Three options:
 
